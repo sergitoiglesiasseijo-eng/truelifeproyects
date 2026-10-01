@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es-ES">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contacto — TrueLife</title>
+<meta name="description" content="Hablemos. Escribe a TrueLife para preguntas generales, soporte, colaboraciones o prensa.">
+<link rel="canonical" href="https://truelife.example/contacto/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#050505">
+<meta name="color-scheme" content="dark light">
+<meta property="og:site_name" content="TrueLife">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Contacto — TrueLife">
+<meta property="og:description" content="Hablemos. Escribe a TrueLife para preguntas generales, soporte, colaboraciones o prensa.">
+<meta property="og:url" content="https://truelife.example/contacto/">
+<meta property="og:image" content="https://truelife.example/img/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="tl:commerce" content="0">
+<meta name="tl:analytics" content="">
+<meta name="tl:events" content="page_view">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/styles.css?v=e9659576">
+<script>document.documentElement.classList.add('js')</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://truelife.example/"},{"@type":"ListItem","position":2,"name":"Contacto","item":"https://truelife.example/contacto/"}]}</script>
+</head>
+<body>
+
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="hdr" data-header data-theme="dark">
+  <div class="hdr__in wrap">
+    <a class="wordmark" href="/" aria-label="TrueLife, inicio">TrueLife</a>
+    <nav class="hdr__nav" aria-label="Principal"><ul><li><a class="navlink" href="/historia/">Historia</a></li><li><a class="navlink" href="/principios/">Principios</a></li><li><a class="navlink" href="/explora/">Explora</a></li><li><a class="navlink" href="/recursos/">Recursos</a></li><li><a class="navlink" href="/tienda/">Tienda</a></li></ul></nav>
+    <a class="btn btn--gold btn--sm hdr__cta" href="/historia/" data-track="hero_cta_click"><span>Empieza aquí</span></a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú"><span></span><span></span></button>
+  </div>
+</header>
+<div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Menú" hidden>
+  <nav class="menu__nav" aria-label="Menú móvil">
+    <ul><li><a href="/">Inicio</a></li><li><a href="/historia/">Historia</a></li><li><a href="/principios/">Principios</a></li><li><a href="/explora/">Explora</a></li><li><a href="/recursos/">Recursos</a></li><li><a href="/tienda/">Tienda</a></li></ul>
+  </nav>
+  <div class="menu__foot">
+    <a class="btn btn--gold " href="/historia/" data-track="hero_cta_click" ><span>Empieza aquí</span></a>
+    <p class="menu__motto">Nada se construye sin disciplina.</p>
+  </div>
+</div>
+<main id="main" tabindex="-1">
+
+<section class="sec sec--dark contact" aria-labelledby="ct-title">
+  <div class="wrap contact__grid">
+    <div>
+      <p class="label" data-reveal="up" style="--i:0">Contacto</p>
+      <h1 id="ct-title" class="h-page"><span class="ln"><span style="--i:1">Hablemos.</span></span></h1>
+      <p class="contact__mail" data-reveal="up" style="--i:3"><span class="ph">[EMAIL DE CONTACTO PENDIENTE]</span></p>
+    </div>
+    <div data-reveal="up" style="--i:2">
+<form class="form cf" data-form="contact" data-event="contact_submit" action="/api/contact" method="post" novalidate data-state="idle">
+  <div class="form__fields">
+    <div class="cf__grid">
+      <div class="field"><label for="cf-name">Nombre</label><input id="cf-name" name="name" type="text" autocomplete="name" required minlength="2" aria-describedby="cf-name-err"><p class="field__err" id="cf-name-err" data-err="name"></p></div>
+      <div class="field"><label for="cf-email">Email</label><input id="cf-email" name="email" type="email" inputmode="email" autocomplete="email" required aria-describedby="cf-email-err"><p class="field__err" id="cf-email-err" data-err="email"></p></div>
+    </div>
+    <div class="field"><label for="cf-reason">Motivo</label>
+      <select id="cf-reason" name="reason" required aria-describedby="cf-reason-err"><option value="">Elige un motivo</option><option>Pregunta general</option><option>Soporte</option><option>Colaboración</option><option>Prensa/contenido</option><option>Otro</option></select>
+      <p class="field__err" id="cf-reason-err" data-err="reason"></p></div>
+    <div class="field"><label for="cf-message">Mensaje</label><textarea id="cf-message" name="message" rows="6" required minlength="10" aria-describedby="cf-message-err"></textarea><p class="field__err" id="cf-message-err" data-err="message"></p></div>
+    
+<div class="field field--check">
+  <label class="check"><input type="checkbox" name="consent" required aria-describedby="err-consent-cf"><span>He leído la <a href="/legal/privacidad/">política de privacidad</a> y acepto que se use este mensaje para responderme.</span></label>
+  <p class="field__err" id="err-consent-cf" data-err="consent"></p>
+</div>
+    <div class="hp" aria-hidden="true"><label>No rellenar<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div><input type="hidden" name="t" value="">
+    <button class="btn btn--gold" type="submit"><span class="btn__label">Enviar mensaje</span><span class="btn__busy" aria-hidden="true">Enviando…</span></button>
+  </div>
+  <p class="form__msg" role="status" aria-live="polite" data-msg></p>
+</form></div>
+  </div>
+</section>
+</main>
+
+<footer class="ftr sec sec--dark">
+  <div class="wrap">
+    <div class="ftr__grid">
+      <div class="ftr__brand">
+        <p class="ftr__logo">TrueLife</p>
+        <p class="ftr__tag">Construir una vida de verdad.</p>
+        <ul class="ftr__social" aria-label="Redes"><li><span class="is-soon" title="Perfil pendiente">TikTok</span></li><li><span class="is-soon" title="Perfil pendiente">Instagram</span></li><li><span class="is-soon" title="Perfil pendiente">YouTube</span></li><li><span class="is-soon" title="Perfil pendiente">Pinterest</span></li><li><span class="is-soon" title="Perfil pendiente">Facebook</span></li></ul>
+      </div>
+      <nav aria-label="TrueLife"><h2 class="ftr__h">TrueLife</h2><ul>
+        <li><a href="/historia/">Historia</a></li><li><a href="/principios/">Principios</a></li><li><a href="/sobre-truelife/">Sobre TrueLife</a></li><li><a href="/contacto/">Contacto</a></li></ul></nav>
+      <nav aria-label="Explora"><h2 class="ftr__h">Explora</h2><ul><li><a href="/explora/cuerpo/">Cuerpo</a></li><li><a href="/explora/disciplina/">Disciplina</a></li><li><a href="/explora/organizacion/">Organización</a></li><li><a href="/explora/dinero/">Dinero</a></li><li><a href="/explora/proyectos/">Proyectos</a></li><li><a href="/explora/vida/">Vida</a></li></ul></nav>
+      <nav aria-label="Recursos"><h2 class="ftr__h">Recursos</h2><ul>
+        <li><a href="/recursos/">Recursos</a></li><li><a href="/tienda/">Tienda</a></li><li><a href="/tienda/organiza-tu-vida/">Organiza tu Vida</a></li><li><a href="/newsletter/">Carta TrueLife</a></li></ul></nav>
+      <nav aria-label="Legal"><h2 class="ftr__h">Legal</h2><ul>
+        <li><a href="/legal/aviso-legal/">Aviso legal</a></li><li><a href="/legal/privacidad/">Privacidad</a></li><li><a href="/legal/cookies/">Cookies</a></li><li><a href="/legal/terminos-de-compra/">Términos de compra</a></li><li><a href="/legal/productos-digitales/">Productos digitales</a></li></ul></nav>
+    </div>
+    <p class="ftr__giant" aria-hidden="true">TrueLife</p>
+    <p class="ftr__base"><span>© 2026 TrueLife.</span> <span>“Nada se construye sin disciplina.”</span></p>
+  </div>
+</footer>
+
+<script src="/js/main.js?v=e9659576" defer></script>
+</body>
+</html>

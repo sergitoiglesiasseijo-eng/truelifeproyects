@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /checkout/
+Disallow: /mis-compras/
+
+Sitemap: https://truelife.example/sitemap.xml
